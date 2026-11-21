@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Positivo Extintores | AVCB, NR-13 e Recarga</title>
+<meta name="description" content="Recarga, manutenção e venda de extintores, projeto e execução de AVCB e laudos NR-13 em Nova Serrana e região. Do projeto à aprovação no Corpo de Bombeiros, com engenheiro responsável.">
+<meta property="og:title" content="Positivo Extintores | AVCB, NR-13 e recarga de extintores em Nova Serrana">
+<meta property="og:description" content="Recarga e manutenção de extintores, AVCB do projeto à aprovação e laudos NR-13. Fale pelo WhatsApp.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Positivo Extintores",
+  "legalName": "Positivo Equipamentos de Proteção Ltda",
+  "description": "Recarga, manutenção e venda de extintores, projeto e execução de AVCB e laudos NR-13.",
+  "telephone": "+55-37-99112-5067",
+  "email": "positivoextintoresvendas@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua Dona Maria Braga, 408",
+    "addressLocality": "Nova Serrana",
+    "addressRegion": "MG",
+    "postalCode": "35526-814",
+    "addressCountry": "BR"
+  },
+  "areaServed": "Nova Serrana e região, Minas Gerais",
+  "sameAs": ["https://www.instagram.com/positivoextintores/"]
+}
+</script>
+<style>
+:root {
+  /* Folha de prancha técnica: papel milimetrado, traço de nanquim, vermelho de sinalização de incêndio. */
+  --paper: #f4f3ee;
+  --paper-deep: #e9e7df;
+  --ink: #1b1d21;
+  --ink-soft: #4a4d54;
+  --rule: #c9c6bb;
+  --signal: #d1221b;
+  --signal-deep: #a3160f;
+  --display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --body: "IBM Plex Sans", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --mono: "IBM Plex Mono", Consolas, "Courier New", monospace;
+  --wrap: 1180px;
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background-color: var(--paper);
+  background-image:
+    linear-gradient(var(--paper-deep) 1px, transparent 1px),
+    linear-gradient(90deg, var(--paper-deep) 1px, transparent 1px);
+  background-size: 24px 24px;
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 17px;
+  line-height: 1.6;
+}
+img { max-width: 100%; }
+a { color: inherit; }
+h1, h2, h3 { font-family: var(--display); line-height: 1.02; text-wrap: balance; margin: 0; text-transform: uppercase; letter-spacing: 0.01em; }
+p { margin: 0; }
+:focus-visible { outline: 3px solid var(--signal); outline-offset: 3px; }
+
+.wrap { max-width: var(--wrap); margin: 0 auto; padding: 0 24px; }
+.mono { font-family: var(--mono); font-size: 0.78rem; letter-spacing: 0.04em; text-transform: uppercase; }
+
+/* Botões */
+.btn {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-family: var(--display); font-weight: 700; font-size: 1.2rem; letter-spacing: 0.04em; text-transform: uppercase;
+  text-decoration: none; padding: 14px 24px; border: 2px solid var(--ink);
+  transition: transform .15s ease, background-color .15s ease, color .15s ease;
+}
+.btn svg { width: 22px; height: 22px; flex: none; }
+.btn-primary { background: var(--signal); border-color: var(--signal); color: #fff; }
+.btn-primary:hover { background: var(--signal-deep); border-color: var(--signal-deep); transform: translateY(-2px); }
+.btn-ghost { background: transparent; color: var(--ink); }
+.btn-ghost:hover { background: var(--ink); color: var(--paper); transform: translateY(-2px); }
+
+/* Cabeçalho */
+header.top { border-bottom: 2px solid var(--ink); background: var(--paper); position: sticky; top: 0; z-index: 10; }
+header.top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 68px; }
+.brand { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+.brand-logo { width: auto; height: 50px; display: block; margin: 4px 0; }
+.foot-brand { display: inline-flex; align-items: center; gap: 10px; }
+.foot-brand img { height: 30px; width: auto; }
+.brand-name { font-family: var(--display); font-weight: 800; font-size: 1.55rem; letter-spacing: 0.06em; line-height: 1; }
+.brand-name small { display: block; font-family: var(--mono); font-weight: 400; font-size: 0.62rem; letter-spacing: 0.12em; color: var(--ink-soft); margin-top: 3px; }
+nav.links { display: flex; gap: 26px; align-items: center; }
+nav.links a { text-decoration: none; font-weight: 500; font-size: 0.95rem; }
+nav.links a:hover { color: var(--signal); }
+nav.links .btn { padding: 9px 16px; font-size: 1rem; }
+
+/* Hero */
+.hero { padding: 64px 0 72px; }
+.hero .wrap { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.9fr); gap: 56px; align-items: end; }
+.kicker { display: flex; align-items: center; gap: 12px; color: var(--signal); margin-bottom: 22px; }
+.kicker::before { content: ""; width: 36px; height: 2px; background: var(--signal); }
+.hero h1 { font-size: clamp(3rem, 7.4vw, 6.2rem); font-weight: 800; }
+.hero h1 em { font-style: normal; color: var(--signal); }
+.hero .lead { margin-top: 26px; font-size: 1.2rem; max-width: 34em; color: var(--ink-soft); }
+.hero .ctas { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 34px; }
+
+/* Cota (linha de dimensão) */
+.cota { position: relative; height: 18px; margin-top: 42px; max-width: 560px; }
+.cota::before { content: ""; position: absolute; left: 0; right: 0; top: 8px; height: 1px; background: var(--ink); transform-origin: left; animation: draw 1.1s ease-out both .2s; }
+.cota span { position: absolute; top: 0; width: 1px; height: 18px; background: var(--ink); }
+.cota span:first-child { left: 0; } .cota span:last-child { right: 0; }
+.cota b { position: absolute; left: 50%; top: -14px; transform: translateX(-50%); background: var(--paper); padding: 0 10px; font-family: var(--mono); font-weight: 500; font-size: 0.74rem; letter-spacing: 0.06em; white-space: nowrap; }
+@keyframes draw { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+
+/* Carimbo (selo de prancha) */
+.carimbo { border: 2px solid var(--ink); background: var(--paper); font-family: var(--mono); font-size: 0.78rem; box-shadow: 8px 8px 0 var(--ink); }
+.carimbo .row { display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid var(--ink); }
+.carimbo .row:first-child { border-top: 0; }
+.carimbo .cell { padding: 10px 14px; border-left: 1px solid var(--ink); }
+.carimbo .cell:first-child { border-left: 0; }
+.carimbo .cell.full { grid-column: 1 / -1; border-left: 0; }
+.carimbo .lbl { display: block; font-size: 0.64rem; color: var(--ink-soft); letter-spacing: 0.08em; text-transform: uppercase; }
+.carimbo .val { display: block; font-size: 0.86rem; font-weight: 500; color: var(--ink); margin-top: 2px; }
+.carimbo .title { font-family: var(--display); font-weight: 800; font-size: 1.7rem; text-transform: uppercase; line-height: 1.05; margin-top: 4px; }
+.carimbo .stamp { color: var(--signal); border: 2px solid var(--signal); display: inline-block; padding: 4px 10px; transform: rotate(-4deg); font-weight: 500; letter-spacing: 0.08em; margin-top: 6px; }
+
+/* Seções */
+section { padding: 84px 0; }
+.sec-head { display: grid; grid-template-columns: 180px 1fr; gap: 32px; margin-bottom: 44px; align-items: start; }
+.sec-head .mono { color: var(--signal); padding-top: 10px; border-top: 2px solid var(--signal); }
+.sec-head h2 { font-size: clamp(2.2rem, 4.6vw, 3.6rem); font-weight: 800; }
+.sec-head p { margin-top: 14px; max-width: 40em; color: var(--ink-soft); font-size: 1.08rem; }
+.band { background: var(--ink); color: var(--paper); background-image: none; }
+.band .sec-head p { color: #b9bcc3; }
+.band .sec-head .mono { color: #ff5a4f; border-top-color: #ff5a4f; }
+
+/* Riscos */
+.riscos { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-top: 1px solid #3a3d44; }
+.risco { padding: 28px 24px 8px 0; border-right: 1px solid #3a3d44; }
+.risco + .risco { padding-left: 24px; }
+.risco:last-child { border-right: 0; }
+.risco .n { font-family: var(--mono); font-size: 0.74rem; color: #ff5a4f; letter-spacing: 0.08em; }
+.risco h3 { font-size: 1.7rem; margin: 10px 0 10px; }
+.risco p { color: #b9bcc3; font-size: 0.98rem; }
+
+/* Serviços (detalhes de prancha) */
+.servicos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; border: 2px solid var(--ink); background: var(--paper); }
+.det { padding: 34px 34px 36px; border-right: 1px solid var(--ink); border-bottom: 1px solid var(--ink); display: flex; flex-direction: column; gap: 14px; }
+.det:nth-child(2n) { border-right: 0; }
+.det:nth-last-child(-n+2) { border-bottom: 0; }
+.det-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.det-tag { display: inline-flex; align-items: center; gap: 10px; }
+.det-tag i { font-style: normal; width: 40px; height: 40px; border-radius: 50%; border: 2px solid var(--ink); display: grid; place-items: center; font-family: var(--mono); font-weight: 500; font-size: 0.8rem; }
+.det-ico { width: 46px; height: 46px; color: var(--signal); }
+.det h3 { font-size: 2rem; }
+.det p { color: var(--ink-soft); }
+.det ul { margin: 4px 0 0; padding: 0; list-style: none; display: grid; gap: 6px; }
+.det li { padding-left: 22px; position: relative; font-size: 0.97rem; }
+.det li::before { content: ""; position: absolute; left: 0; top: 0.72em; width: 12px; height: 2px; background: var(--signal); }
+.det.destaque { background: var(--ink); color: var(--paper); }
+.det.destaque p { color: #b9bcc3; }
+.det.destaque .det-tag i { border-color: var(--paper); }
+
+
+/* Recarga */
+.recarga { padding-top: 20px; }
+.rec-grid { display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.1fr) minmax(0, 1fr); gap: 0; border: 2px solid var(--ink); background: var(--paper); }
+.rec-grid > div { padding: 34px; border-left: 1px solid var(--ink); }
+.rec-grid > div:first-child { border-left: 0; }
+.manometro { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; background: var(--paper-deep); }
+.manometro svg { width: 100%; max-width: 240px; height: auto; }
+.manometro .mono { color: var(--signal); text-align: center; }
+.ponteiro { transform-origin: 120px 120px; animation: tremor 3.2s ease-in-out infinite; }
+@keyframes tremor { 0%, 100% { transform: rotate(0deg); } 50% { transform: rotate(4deg); } }
+.rec-grid h3 { font-size: 1.7rem; margin-bottom: 16px; }
+.sinais { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+.sinais li { padding-left: 22px; position: relative; }
+.sinais li::before { content: ""; position: absolute; left: 0; top: 0.55em; width: 10px; height: 10px; background: var(--signal); }
+.sinais b { display: block; font-weight: 600; }
+.sinais span { color: var(--ink-soft); font-size: 0.95rem; }
+.rec-cta { background: var(--ink); color: var(--paper); display: flex; flex-direction: column; gap: 16px; }
+.rec-cta h3 { margin-bottom: 0; }
+.rec-cta p { color: #b9bcc3; }
+.rec-cta .btn { align-self: flex-start; font-size: 1.05rem; }
+.inclui { list-style: none; margin: 6px 0 0; padding: 16px 0 0; border-top: 1px solid #3a3d44; display: grid; gap: 8px; font-size: 0.93rem; color: #d4d6db; }
+.inclui li { padding-left: 20px; position: relative; }
+.inclui li::before { content: ""; position: absolute; left: 0; top: 0.72em; width: 10px; height: 2px; background: #ff5a4f; }
+@media (max-width: 960px) {
+  .rec-grid { grid-template-columns: 1fr 1fr; }
+  .rec-cta { grid-column: 1 / -1; border-left: 0 !important; border-top: 1px solid var(--ink); }
+}
+@media (max-width: 720px) {
+  .rec-grid { grid-template-columns: 1fr; }
+  .rec-grid > div { border-left: 0; border-top: 1px solid var(--ink); padding: 28px 22px; }
+  .rec-grid > div:first-child { border-top: 0; }
+}
+
+/* Processo */
+.passos { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; counter-reset: p; position: relative; }
+.passo { position: relative; padding: 0 22px 0 0; }
+.passo .marco { display: flex; align-items: center; margin-bottom: 20px; }
+.passo .marco b { width: 52px; height: 52px; flex: none; background: var(--paper); border: 2px solid var(--ink); display: grid; place-items: center; font-family: var(--display); font-weight: 800; font-size: 1.6rem; }
+.passo .marco::after { content: ""; flex: 1; height: 2px; background: repeating-linear-gradient(90deg, var(--ink) 0 8px, transparent 8px 14px); margin-left: 10px; }
+.passo:last-child .marco::after { background: var(--signal); height: 4px; }
+.passo:last-child .marco b { background: var(--signal); color: #fff; border-color: var(--signal); }
+.passo h3 { font-size: 1.55rem; margin-bottom: 8px; }
+.passo p { color: var(--ink-soft); font-size: 0.98rem; }
+
+/* Diferencial */
+.dif { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 0; border: 2px solid var(--ink); background: var(--paper); }
+.dif > div { padding: 40px; }
+.dif .antes { border-right: 1px solid var(--ink); }
+.dif .lbl { color: var(--ink-soft); margin-bottom: 18px; display: block; }
+.dif ol { margin: 0; padding-left: 22px; display: grid; gap: 10px; }
+.dif .antes ol { color: var(--ink-soft); }
+.dif .antes li::marker { color: var(--ink-soft); }
+.dif .depois li::marker { color: var(--signal); font-weight: 600; }
+.dif .depois .lbl { color: var(--signal); }
+.dif h3 { font-size: 2rem; margin-bottom: 18px; }
+
+/* FAQ */
+.faq { display: grid; gap: 0; border-top: 2px solid var(--ink); max-width: 900px; }
+.faq details { border-bottom: 1px solid var(--rule); }
+.faq summary { list-style: none; cursor: pointer; padding: 22px 48px 22px 0; position: relative; font-weight: 600; font-size: 1.12rem; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; position: absolute; right: 6px; top: 14px; font-family: var(--display); font-weight: 700; font-size: 2rem; color: var(--signal); transition: transform .2s ease; }
+.faq details[open] summary::after { transform: rotate(45deg); }
+.faq details p { padding: 0 0 24px; color: var(--ink-soft); max-width: 46em; }
+
+/* CTA final */
+.final { background: var(--signal); color: #fff; background-image: none; padding: 76px 0; }
+.final .wrap { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 48px; align-items: center; }
+.final h2 { font-size: clamp(2.6rem, 5.6vw, 4.4rem); font-weight: 800; }
+.final p { margin-top: 16px; font-size: 1.15rem; max-width: 30em; color: #ffe3e0; }
+.final .btn-white { background: #fff; color: var(--signal-deep); border-color: #fff; margin-top: 28px; }
+.final .btn-white:hover { background: var(--ink); color: #fff; border-color: var(--ink); transform: translateY(-2px); }
+.contato { border: 2px solid #fff; font-size: 1rem; }
+.contato div { padding: 16px 20px; border-top: 1px solid rgba(255,255,255,.5); }
+.contato div:first-child { border-top: 0; }
+.contato .mono { display: block; color: #ffd0cb; font-size: 0.68rem; margin-bottom: 2px; }
+.contato a { text-decoration: none; font-weight: 600; }
+.contato a:hover { text-decoration: underline; }
+
+footer { padding: 30px 0 90px; background: var(--ink); color: #9ea2aa; font-size: 0.88rem; background-image: none; }
+footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; }
+
+/* WhatsApp flutuante */
+.wa-float { position: fixed; right: 20px; bottom: 20px; z-index: 20; display: inline-flex; align-items: center; gap: 10px; background: #1f9d55; color: #fff; text-decoration: none; padding: 13px 18px 13px 14px; border-radius: 999px; font-weight: 600; box-shadow: 0 6px 20px rgba(0,0,0,.25); transition: transform .15s ease; }
+.wa-float:hover { transform: translateY(-3px); }
+.wa-float svg { width: 26px; height: 26px; }
+
+/* Responsivo */
+@media (max-width: 960px) {
+  .hero .wrap, .final .wrap { grid-template-columns: 1fr; }
+  .carimbo { max-width: 520px; }
+  .riscos { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .risco:nth-child(2) { border-right: 0; }
+  .risco:nth-child(3) { padding-left: 0; }
+  .passos { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 40px; }
+  nav.links a:not(.btn) { display: none; }
+}
+@media (max-width: 720px) {
+  body { font-size: 16px; }
+  section { padding: 60px 0; }
+  .hero { padding: 40px 0 56px; }
+  .sec-head { grid-template-columns: 1fr; gap: 14px; }
+  .sec-head .mono { width: max-content; padding-right: 10px; }
+  .servicos, .dif { grid-template-columns: 1fr; }
+  .det { border-right: 0 !important; border-bottom: 1px solid var(--ink) !important; padding: 28px 22px; }
+  .det:last-child { border-bottom: 0 !important; }
+  .dif .antes { border-right: 0; border-bottom: 1px solid var(--ink); }
+  .dif > div { padding: 28px 22px; }
+  .riscos { grid-template-columns: 1fr; }
+  .risco, .risco + .risco { padding: 22px 0 10px; border-right: 0; border-bottom: 1px solid #3a3d44; }
+  .passos { grid-template-columns: 1fr; }
+  .wa-float span { display: none; }
+  .wa-float { padding: 14px; }
+  .brand-name small { display: none; }
+}
+@media (max-width: 420px) {
+  .wrap { padding: 0 16px; }
+  .carimbo .row { grid-template-columns: 1fr; }
+  .carimbo .cell { border-left: 0; border-top: 1px solid var(--ink); }
+  .carimbo .cell:first-child { border-top: 0; }
+  nav.links .btn { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#inicio" aria-label="Positivo Extintores, início">
+      <img class="brand-logo" src="data:image/webp;base64,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" width="45" height="48" alt="">
+      <span class="brand-name">POSITIVO<small>Extintores · Engenharia de incêndio</small></span>
+    </a>
+    <nav class="links" aria-label="Navegação principal">
+      <a href="#servicos">Serviços</a>
+      <a href="#recarga">Recarga</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#duvidas">Dúvidas</a>
+      <a class="btn btn-primary" href="https://wa.me/5537991125067?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20diagn%C3%B3stico%20de%20AVCB%2FNR-13.">WhatsApp</a>
+    </nav>
+  </div>
+</header>
+
+<main id="inicio">
+
+<section class="hero" aria-labelledby="titulo">
+  <div class="wrap">
+    <div>
+      <p class="kicker mono">AVCB · NR-13 · Recarga de extintores</p>
+      <h1 id="titulo">Sua empresa em dia com o <em>Bombeiro</em> e com a <em style="white-space:nowrap">NR&#8209;13</em>.</h1>
+      <p class="lead">Fazemos o projeto, executamos a obra e acompanhamos até a aprovação no Corpo de Bombeiros. Também inspecionamos os vasos de pressão da sua fábrica, emitimos o laudo NR-13 e cuidamos da recarga e manutenção dos seus extintores. Um só responsável do começo ao fim.</p>
+      <div class="ctas">
+        <a class="btn btn-primary" href="https://wa.me/5537991125067?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20diagn%C3%B3stico%20de%20AVCB%2FNR-13.">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2s.2-1.1.2-1.2-.2-.2-.5-.3z"/></svg>
+          Agendar diagnóstico grátis
+        </a>
+        <a class="btn btn-ghost" href="#recarga">Recarga de extintores</a>
+      </div>
+      <div class="cota" aria-hidden="true"><span></span><b>DO PROJETO À APROVAÇÃO</b><span></span></div>
+    </div>
+
+    <aside class="carimbo" aria-label="Dados da empresa">
+      <div class="row"><div class="cell full"><span class="lbl">Projeto</span><span class="title">Regularização da sua empresa</span></div></div>
+      <div class="row">
+        <div class="cell"><span class="lbl">Empresa</span><span class="val">Positivo Extintores</span></div>
+        <div class="cell"><span class="lbl">Resp. técnico</span><span class="val">Eng. Mec. CREA-MG 18931</span></div>
+      </div>
+      <div class="row">
+        <div class="cell"><span class="lbl">Órgãos</span><span class="val">CBMMG · MTE</span></div>
+        <div class="cell"><span class="lbl">Área atendida</span><span class="val">Nova Serrana e região</span></div>
+      </div>
+      <div class="row"><div class="cell full"><span class="lbl">Situação desejada</span><span class="stamp">AVCB APROVADO</span></div></div>
+    </aside>
+  </div>
+</section>
+
+<section class="band" aria-labelledby="riscos-t">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="mono">Por que regularizar</span>
+      <div>
+        <h2 id="riscos-t">O que trava quando falta o AVCB ou o laudo</h2>
+        <p>Muita empresa só descobre que está irregular quando precisa renovar o alvará, acionar o seguro ou recebe uma fiscalização.</p>
+      </div>
+    </div>
+    <div class="riscos">
+      <div class="risco"><span class="n">01 · Prefeitura</span><h3>Alvará travado</h3><p>Sem AVCB, a renovação do alvará de funcionamento pode ficar parada.</p></div>
+      <div class="risco"><span class="n">02 · Seguro</span><h3>Indenização em risco</h3><p>Em caso de sinistro, a seguradora pode questionar o pagamento se a edificação estiver irregular.</p></div>
+      <div class="risco"><span class="n">03 · Fiscalização</span><h3>Interdição</h3><p>Vaso de pressão sem prontuário e inspeção em dia pode ser interditado pelo auditor do trabalho, e a produção para.</p></div>
+      <div class="risco"><span class="n">04 · Responsabilidade</span><h3>Risco ao dono</h3><p>Se acontece um acidente, a falta de regularização pesa sobre o responsável pela empresa.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="servicos" aria-labelledby="serv-t">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="mono">Serviços</span>
+      <div>
+        <h2 id="serv-t">O que a Positivo faz por você</h2>
+        <p>Você fala com uma empresa só. Nós cuidamos da parte técnica, da documentação e da obra.</p>
+      </div>
+    </div>
+    <div class="servicos">
+      <article class="det destaque">
+        <div class="det-top">
+          <span class="det-tag mono"><i>01</i> Detalhe</span>
+          <svg class="det-ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="5" width="30" height="38"/><path d="M15 15h18M15 22h18M15 29h10"/><path d="M27 37l4 4 8-9"/></svg>
+        </div>
+        <h3>Projeto de AVCB</h3>
+        <p>Levantamento no local, projeto de segurança contra incêndio e pânico, protocolo no Corpo de Bombeiros e acompanhamento até a aprovação.</p>
+        <ul><li>Projeto técnico conforme as Instruções Técnicas do CBMMG</li><li>Protocolo e acompanhamento do processo</li><li>Correções e vistoria até a liberação</li></ul>
+      </article>
+      <article class="det">
+        <div class="det-top">
+          <span class="det-tag mono"><i>02</i> Detalhe</span>
+          <svg class="det-ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" aria-hidden="true"><path d="M8 40h32"/><rect x="18" y="14" width="12" height="26"/><path d="M24 14V8M18 22h-8v10M30 22h8v10"/><circle cx="24" cy="26" r="3"/></svg>
+        </div>
+        <h3>Execução do projeto</h3>
+        <p>Instalamos o que o projeto exige, com a mesma equipe que projetou. Sem jogo de empurra entre projetista e instalador.</p>
+        <ul><li>Rede de hidrantes, bomba e painel elétrico</li><li>Sinalização e equipamentos de combate</li><li>Adequações para a vistoria</li></ul>
+      </article>
+      <article class="det">
+        <div class="det-top">
+          <span class="det-tag mono"><i>03</i> Detalhe</span>
+          <svg class="det-ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" aria-hidden="true"><rect x="10" y="16" width="28" height="22" rx="11"/><circle cx="24" cy="9" r="4"/><path d="M24 13v3M24 9l2-2"/><path d="M14 38v4M34 38v4"/></svg>
+        </div>
+        <h3>Laudos NR-13</h3>
+        <p>Inspeção de vasos de pressão por engenheiro habilitado, com a documentação que a fiscalização pede.</p>
+        <ul><li>Reservatórios de compressores de ar</li><li>Autoclaves</li><li>Prontuário, registro de segurança e relatório de inspeção</li></ul>
+      </article>
+      <article class="det">
+        <div class="det-top">
+          <span class="det-tag mono"><i>04</i> Detalhe</span>
+          <svg class="det-ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" aria-hidden="true"><rect x="16" y="14" width="14" height="28" rx="5"/><path d="M20 14V9h6v5M26 10h8l2 4"/><path d="M19 24h8"/></svg>
+        </div>
+        <h3>Recarga de extintores</h3>
+        <p>Recarga, manutenção e venda de extintores para empresas, comércios, condomínios e veículos.</p>
+        <ul><li>Venda de extintores e acessórios</li><li>Recarga e manutenção periódica</li><li>Atendimento com certificação Inmetro</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+<section id="recarga" class="recarga" aria-labelledby="rec-t">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="mono">Recarga e manutenção</span>
+      <div>
+        <h2 id="rec-t">Seu extintor está pronto para funcionar?</h2>
+        <p>Extintor vencido ou descarregado não protege ninguém e reprova na vistoria. Fazemos a recarga e a manutenção com selo Inmetro e devolvemos tudo identificado.</p>
+      </div>
+    </div>
+    <div class="rec-grid">
+      <div class="manometro">
+        <svg viewBox="0 0 240 240" role="img" aria-labelledby="mano-t">
+          <title id="mano-t">Manômetro de extintor com o ponteiro fora da faixa verde</title>
+          <circle cx="120" cy="120" r="104" fill="#fff" stroke="#1b1d21" stroke-width="4"/>
+          <path d="M 40.4 85.6 A 86 86 0 0 1 80.5 43.8" fill="none" stroke="#d1221b" stroke-width="14"/>
+          <path d="M 85.2 41.3 A 86 86 0 0 1 154.8 41.3" fill="none" stroke="#2f9e5b" stroke-width="14"/>
+          <path d="M 159.5 43.8 A 86 86 0 0 1 199.6 85.6" fill="none" stroke="#d1221b" stroke-width="14"/>
+          <text x="34" y="140" font-family="IBM Plex Mono, monospace" font-size="11" fill="#4a4d54">BAIXA</text>
+          <text x="111" y="70" font-family="IBM Plex Mono, monospace" font-size="11" fill="#2f9e5b">OK</text>
+          <text x="172" y="140" font-family="IBM Plex Mono, monospace" font-size="11" fill="#4a4d54">ALTA</text>
+          <line class="ponteiro" x1="120" y1="120" x2="62" y2="76" stroke="#1b1d21" stroke-width="5" stroke-linecap="round"/>
+          <circle cx="120" cy="120" r="9" fill="#1b1d21"/>
+        </svg>
+        <p class="mono">Ponteiro fora do verde = recarga</p>
+      </div>
+      <div>
+        <h3>Sinais de que precisa de recarga</h3>
+        <ul class="sinais">
+          <li><b>Ponteiro do manômetro fora da faixa verde</b><span>Pressão baixa ou alta: o extintor pode falhar na hora do uso.</span></li>
+          <li><b>Etiqueta com a data vencida</b><span>A etiqueta mostra quando é a próxima manutenção.</span></li>
+          <li><b>Lacre rompido ou extintor já usado</b><span>Mesmo usado só um pouco, ele precisa ser recarregado.</span></li>
+          <li><b>Amassado, ferrugem ou mangueira danificada</b><span>Precisa de avaliação antes de voltar ao lugar.</span></li>
+        </ul>
+      </div>
+      <div class="rec-cta">
+        <h3>Na dúvida, mande uma foto</h3>
+        <p>Tire uma foto da etiqueta e do manômetro e mande no WhatsApp. A gente diz se precisa de recarga.</p>
+        <a class="btn btn-primary" href="https://wa.me/5537991125067?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20or%C3%A7amento%20de%20recarga%20de%20extintores.">Pedir orçamento de recarga</a>
+        <ul class="inclui">
+          <li>Recarga e manutenção com selo Inmetro</li>
+          <li>Extintores para empresas, comércios, condomínios e veículos</li>
+          <li>Venda de extintores novos, suportes e placas</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="como-funciona" aria-labelledby="como-t" style="padding-top:20px">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="mono">Como funciona</span>
+      <div>
+        <h2 id="como-t">Do primeiro contato ao documento na mão</h2>
+      </div>
+    </div>
+    <div class="passos">
+      <div class="passo"><div class="marco"><b>1</b></div><h3>Diagnóstico grátis</h3><p>Vamos até a sua empresa e levantamos o que falta para o AVCB e para a NR-13.</p></div>
+      <div class="passo"><div class="marco"><b>2</b></div><h3>Proposta clara</h3><p>Você recebe o escopo, o prazo estimado e o valor, sem surpresa no meio do caminho.</p></div>
+      <div class="passo"><div class="marco"><b>3</b></div><h3>Projeto e obra</h3><p>Fazemos o projeto, executamos as adequações e cuidamos de toda a documentação.</p></div>
+      <div class="passo"><div class="marco"><b>4</b></div><h3>Aprovado</h3><p>Acompanhamos a vistoria até o AVCB liberado ou o laudo NR-13 entregue.</p></div>
+    </div>
+  </div>
+</section>
+
+<section aria-labelledby="dif-t" style="padding-top:20px">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="mono">Diferencial</span>
+      <div>
+        <h2 id="dif-t">Projeto e execução com o mesmo responsável</h2>
+      </div>
+    </div>
+    <div class="dif">
+      <div class="antes">
+        <span class="lbl mono">Do jeito comum</span>
+        <h3>Você coordena três empresas</h3>
+        <ol>
+          <li>Contrata um projetista</li>
+          <li>Procura um instalador que entenda o projeto</li>
+          <li>Na vistoria, um culpa o outro pelo que não passou</li>
+          <li>O prazo estoura e o alvará continua parado</li>
+        </ol>
+      </div>
+      <div class="depois">
+        <span class="lbl mono">Com a Positivo</span>
+        <h3>Você fala com uma só</h3>
+        <ol>
+          <li>Diagnóstico e proposta únicos</li>
+          <li>Quem projeta acompanha a obra</li>
+          <li>Pendências da vistoria são resolvidas por nós</li>
+          <li>Você recebe o AVCB e cuida da sua empresa</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="duvidas" aria-labelledby="faq-t" style="padding-top:20px">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="mono">Dúvidas</span>
+      <div>
+        <h2 id="faq-t">Perguntas frequentes</h2>
+      </div>
+    </div>
+    <div class="faq">
+      <details>
+        <summary>Como sei se o meu extintor precisa de recarga?</summary>
+        <p>Olhe o manômetro: o ponteiro precisa estar na faixa verde. Confira também a data da etiqueta e se o lacre está inteiro. Se tiver dúvida, mande uma foto da etiqueta e do manômetro no WhatsApp que a gente avalia.</p>
+      </details>
+      <details>
+        <summary>Quanto tempo leva para sair o AVCB?</summary>
+        <p>Depende do porte da edificação, do que precisa ser instalado e do andamento do processo no Corpo de Bombeiros. No diagnóstico gratuito nós avaliamos o seu caso e passamos uma estimativa realista.</p>
+      </details>
+      <details>
+        <summary>Já tenho extintores. Ainda preciso do AVCB?</summary>
+        <p>Na maioria dos casos, sim. O extintor é só uma das medidas de segurança. O AVCB comprova que a edificação inteira atende às exigências do Corpo de Bombeiros para o seu tipo de ocupação e área.</p>
+      </details>
+      <details>
+        <summary>O compressor da minha fábrica precisa de laudo NR-13?</summary>
+        <p>O reservatório de ar do compressor é um vaso de pressão, e a maioria dos compressores industriais se enquadra na NR-13. Nesse caso ele precisa de inspeções periódicas, prontuário e registro de segurança. Na visita nós verificamos o enquadramento do seu equipamento.</p>
+      </details>
+      <details>
+        <summary>Meu AVCB venceu. O que eu faço?</summary>
+        <p>Fale com a gente. Avaliamos se a edificação mudou desde a última aprovação e o que é preciso para a renovação.</p>
+      </details>
+      <details>
+        <summary>Vocês atendem fora de Nova Serrana?</summary>
+        <p>Sim, atendemos Nova Serrana e as cidades da região. Mande uma mensagem no WhatsApp com a cidade e o tipo de imóvel.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="final" aria-labelledby="final-t">
+  <div class="wrap">
+    <div>
+      <h2 id="final-t">Descubra o que falta para regularizar a sua empresa</h2>
+      <p>O diagnóstico é gratuito. Mande uma mensagem com a cidade, o tipo de imóvel e se o AVCB está vencido ou nunca foi feito.</p>
+      <a class="btn btn-white" href="https://wa.me/5537991125067?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20diagn%C3%B3stico%20de%20AVCB%2FNR-13.">Chamar no WhatsApp</a>
+    </div>
+    <div class="contato">
+      <div><span class="mono">WhatsApp</span><a href="https://wa.me/5537991125067">(37) 99112-5067</a></div>
+      <div><span class="mono">E-mail</span><a href="mailto:positivoextintoresvendas@gmail.com">positivoextintoresvendas@gmail.com</a></div>
+      <div><span class="mono">Endereço</span><a href="https://www.google.com/maps/search/?api=1&amp;query=Rua+Dona+Maria+Braga+408+Nova+Serrana+MG">Rua Dona Maria Braga, 408 · Nova Serrana/MG</a></div>
+      <div><span class="mono">Instagram</span><a href="https://www.instagram.com/positivoextintores/">@positivoextintores</a></div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span class="foot-brand"><img src="data:image/webp;base64,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" width="28" height="30" alt="">Positivo Equipamentos de Proteção Ltda · Nova Serrana/MG</span>
+    <span>AVCB · Laudos NR-13 · Recarga e venda de extintores</span>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/5537991125067?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20diagn%C3%B3stico%20de%20AVCB%2FNR-13." aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2s.2-1.1.2-1.2-.2-.2-.5-.3z"/></svg>
+  <span>Fale no WhatsApp</span>
+</a>
+
+</body>
+</html>
